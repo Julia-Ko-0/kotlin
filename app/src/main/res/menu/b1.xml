@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_1"
+    android:icon="@drawable/baseline_door_front_24"
+    android:title="@string/gl"
+    android:orderInCategory="1"
+/>
+
+    <item android:id="@+id/menu_2"
+
+        android:title="Поиск"
+        android:orderInCategory="2"
+        android:icon="@drawable/baseline_search_24"/>
+
+    <item android:id="@+id/menu_3"
+
+        android:title="Закладки"
+        android:orderInCategory="3"
+        android:icon="@drawable/baseline_bookmarks_24"/>
+
+    <item android:id="@+id/menu_4"
+        android:icon="@drawable/baseline_account_box_24"
+        android:title="Профиль"
+        android:orderInCategory="4"
+        />
+
+
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationViewWithoutIcons" parent="Widget.Design.BottomNavigationView">
+        <item name="android:background">@android:color/white</item> <!-- Задает фон -->
+        <item name="android:paddingLeft">16dp</item> <!-- Задает отступ слева -->
+        <item name="android:paddingRight">16dp</item>
+        <!-- Задает отступ справа -->
+    </style>
+</resources>

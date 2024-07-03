@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place_h"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff9eb"
+    android:orientation="vertical"
+    tools:context=".ItemsActivity2">
+
+
+    <EditText
+        android:layout_width="289dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/fff9eb"
+        android:fontFamily="@font/inter_bold"
+        android:hint="Поиск"
+        android:textColor="#ffb284"
+        android:textColorHint="#ffb284"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+
+    <FrameLayout
+        android:id="@+id/place_hs"
+        android:layout_width="match_parent"
+        android:layout_height="606dp">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bnavL"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginBottom="2dp"
+        android:background="#ffb284"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:itemIconTint="@color/fff9eb"
+        app:itemTextColor="@color/fff9eb"
+        app:menu="@menu/b1" />
+
+</LinearLayout>

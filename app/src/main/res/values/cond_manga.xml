@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_name">MyApplication</string>-->
+<!--    <string name="hello_world">Hello World!</string>-->
+
+    <!-- Пример строкового массива -->
+    <string-array name="my_string_array">
+        <item>Не читаю</item>
+        <item>Читаю</item>
+        <item>Впланах</item>
+        <item>Прочитано</item>
+        <item>Избранное</item>
+        <item>Брошено</item>
+    </string-array>
+</resources>

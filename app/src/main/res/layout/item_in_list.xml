@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/full_item"
+    android:layout_width="match_parent"
+    android:layout_height="225dp"
+    android:layout_margin="10dp"
+    android:background="#fff9eb"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/item_list_image"
+        android:layout_width="146dp"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/item_list_title"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="-220dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textColor="#ffb284"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_list_ganre"
+        android:layout_width="251dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="150dp"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textColor="#7AA97D"
+        android:textSize="17sp" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/item_list_price"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:gravity="end"-->
+    <!--        android:paddingHorizontal="20dp"-->
+    <!--        android:paddingVertical="10dp"-->
+    <!--        android:text="TextView"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/item_list_button"-->
+    <!--        android:layout_width="202dp"-->
+    <!--        android:layout_height="52dp"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:layout_marginTop="60dp"-->
+    <!--        android:backgroundTint="#5D7C8C"-->
+    <!--        android:text="Посмотреть" />-->
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff9eb"
+    tools:context=".BlankFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="187dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/table"
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_collection"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#ffdccc"
+        android:visibility="gone"
+        android:text="Коллекции"
+        android:textColor="#f5918f" />
+
+    <Button
+        android:id="@+id/btn_popul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#ffdccc"
+        android:text="Популярное"
+
+        android:textColor="#f5918f" />
+
+    <Button
+        android:id="@+id/btn_rand"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:text="Рандом"
+        android:backgroundTint="#ffdccc"
+        android:textColor="#f5918f"
+        android:layout_marginLeft="215dp"
+
+        android:layout_marginTop="250dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_filtr"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Фильтр"
+        android:backgroundTint="#ffdccc"
+        android:visibility="gone"
+        android:textColor="#f5918f"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="215dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginRight="-260dp"
+        android:layout_marginTop="450dp"
+        android:src="@drawable/perev"
+        />
+
+
+
+
+</FrameLayout>
